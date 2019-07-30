@@ -30,6 +30,8 @@ a{
 	max-width: 1300px;
 	margin:auto;
 	background: #fff;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .w-container .navbar-nav{
@@ -273,6 +275,8 @@ a{
 	padding-bottom: 2rem;
 }
 
+
+
 .social li{
 	list-style: none;
 }
@@ -332,6 +336,17 @@ a{
 	top:10%;
 }
 
+.trans-btn{
+	background: transparent;
+	color:#ddd;
+	display: inline;
+}
+
+
+.p-title{
+	font-weight: 300 !important;
+}
+
 @media(min-width:1200px){
 	.features-row img{
 	min-height: 300px;
@@ -353,6 +368,73 @@ a{
 	    border-left: 12px solid white;
 	    border-top: 13px solid #f72210;
 	  }
+}
+
+.img-100{
+	width: 100%;
+}
+
+
+@media(max-width:800px){
+	header .btn{
+	font-size: .9rem;
+    padding: 0;
+    position: relative;
+    top: 10px;
+	}
+
+	header .btn-col{
+		display: flex;
+    flex-direction: row-reverse;
+	}
+
+	header .fa{
+		padding-left: .7rem;
+		font-size: 1.2rem;
+	}
+
+	.top-stories-col{
+		order:1;
+	}
+
+	.featured-stories-col{
+		order:2;
+	}
+
+	.opinion-col{
+		order:3;
+	}
+
+	.category-box{
+		margin-top:1.4rem;
+	}
+
+	.newsletter-col{
+		margin-top:1rem;
+		
+	}
+
+	.newsletter-row{
+		padding-bottom: 1rem;
+	}
+
+	.subscribe-sec .story-title {
+    margin-top: 80%;
+    }
+
+    .copyright{
+    	display: block;
+    }
+
+    .social{
+    	float: left !important;
+	    padding: 0;
+	    margin: 1rem 0;
+    }
+
+    .social li{
+    	padding-right: 1rem;
+    }
 }
 
 
